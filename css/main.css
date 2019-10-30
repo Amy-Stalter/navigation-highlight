@@ -1,0 +1,27 @@
+html {
+  line-height: 1.5;
+  padding: .2em .5em .3em, 0 .75em, .75em
+  margin:.3em;
+}
+
+h1 {
+  font-family: "Sigmar One", sans-serif;
+  color: #cc1465;
+}
+
+header {
+  background-color: #ffe500;
+
+}
+
+.nav li {
+  display: inline-block;
+}
+
+p {
+  font-family: Georgia, sans-serif;
+}
+
+footer {
+  background-color: #ffe500;
+}
