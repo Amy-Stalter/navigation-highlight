@@ -1,21 +1,42 @@
 html {
+  box-sizing: border-box;
+  font-family: Georgia, serif;
   line-height: 1.5;
-  padding: .2em .5em .3em, 0 .75em, .75em
-  margin:.3em;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 h1 {
   font-family: "Sigmar One", sans-serif;
-  color: #cc1465;
+  color: #b20953;
+  font-size: 3rem;
+  text-align: center;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Sigmar One", sans-serif;
+  color: #b20953;
+  font-size: 1.875rem;
+  text-align: left;
 }
 
 header {
   background-color: #ffe500;
+  margin: 0;
+  padding: .2em .5em .3em;
+  max-width: 100%;
 
 }
 
 .nav li {
   display: inline-block;
+}
+
+nav {
+  text-align: center;
 }
 
 p {
@@ -24,4 +45,119 @@ p {
 
 footer {
   background-color: #ffe500;
+  padding: .2em .5em .3em;
+  margin: 0;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  list-style-type: none;
+  list-style: none;
+}
+
+nav li {
+  list-style-type: none;
+  list-style: none;
+  display: inline-block;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.home {
+  padding: .2em .5em .3em;
+  background-color: #b2a212;
+  color: #fff;
+  border-radius: 4px;
+  margin: .75em;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.blueberries {
+  padding: .2em .5em .3em;
+  background-color: #b2a212;
+  color: #fff;
+  border-radius: 4px;
+  margin: .75em;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.grapes {
+  padding: .2em .5em .3em;
+  background-color: #b2a212;
+  color: #fff;
+  border-radius: 4px;
+  margin: .75em;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.red-currants {
+  padding: .2em .5em .3em;
+  background-color: #b2a212;
+  color: #fff;
+  border-radius: 4px;
+  margin: .75em;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.home:hover {
+  padding: .2em .5em .3em;
+  background-color: #cc1465;
+  color: #fff;
+  border-radius: 4px;
+  margin: .75em;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.blueberries:hover {
+  padding: .2em .5em .3em;
+  background-color: #cc1465;
+  color: #fff;
+  border-radius: 4px;
+  margin: .75em;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.grapes:hover {
+  padding: .2em .5em .3em;
+  background-color: #cc1465;
+  color: #fff;
+  border-radius: 4px;
+  margin: .75em;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.red-currants:hover {
+  padding: .2em .5em .3em;
+  background-color: #cc1465;
+  color: #fff;
+  border-radius: 4px;
+  margin: .75em;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.current {
+  background-color: #b20953;
+}
+
+nav a.current {
+  background-color: #b20953;
+}
+
+nav a:hover {
+  background-color: #b20953;
+}
+
+nav a:focus {
+  background-color: #b20953;
 }
