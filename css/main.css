@@ -72,13 +72,10 @@ footer {
 
 a {
   text-decoration: none;
-  list-style-type: none;
-  list-style: none;
 }
 
 nav li {
   list-style-type: none;
-  list-style: none;
   display: inline-block;
   margin: 0 auto;
   justify-content: center;
@@ -86,7 +83,7 @@ nav li {
   vertical-align: middle;
 }
 
-nav a{
+nav a {
   padding: .2em .5em .3em;
   background-color: #b2a212;
   color: #fff;
